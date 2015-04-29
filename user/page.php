@@ -1,0 +1,60 @@
+<?php
+$page = $_GET['page'];
+switch ($page) {
+    default:
+    case 'beranda': include 'beranda.php';
+        break;
+	 case 'artikel_detail': include 'artikel_detail.php';
+        break;
+    case 'artikel_show': include 'artikel_show.php';
+        break;
+	case 'artikel_komentar_proses': include 'artikel_komentar_proses.php';
+        break;		   
+	case 'artikel_komentar': include 'artikel_komentar.php';
+        break;		   		    
+    case 'trans_pilihan': include 'trans_pilihan.php';
+        break;
+    case 'trans_konfirmasi_pembayaran': include 'trans_konfirmasi_pembayaran.php';
+        break;
+    case 'trans_pembayaran': include 'trans_pembayaran.php';
+        break;
+    case 'trans_proses_konfirmasi': include 'trans_proses_konfirmasi.php';
+        break;
+    case 'trans_proses_pembayaran': include 'trans_proses_pembayaran.php';
+        break;
+    case 'trans_zakat_harta': include 'trans_zakat_harta.php';
+        break;
+    case 'trans_zakat_harta_usaha': include 'trans_zakat_harta_usaha.php';
+        break;  	
+    case 'trans_zakat_profesi': include 'trans_zakat_profesi.php';
+        break;
+    case 'trans_zakat_hadiah': include 'trans_zakat_hadiah.php';
+        break;		
+    case 'trans_selesai_pembayaran': include 'trans_selesai_pembayaran.php';
+        break;
+    case 'user_cara_pembayaran': include 'user_cara_pembayaran.php';
+        break;	
+	case 'user_detail': include 'user_detail.php';
+        break;	
+	case 'user_Update': include 'user_Update.php';
+        break;	
+	case 'user_Edit': include 'user_Edit.php';
+        break;							
+	case 'bukutamu_isi': include 'bukutamu_isi.php';
+        break;
+	case 'bukutamu_proses_isi': include 'bukutamu_proses_isi.php';
+        break;
+	case 'bukutamu_proses_isi_notif': include 'bukutamu_proses_isi_notif.php';
+        break;		    
+    case 'bukutamu_index': include 'bukutamu_index.php';
+        break;				
+	case 'history_zakat_online': include 'history_zakat_online.php';
+        break;
+	case 'aboutus_advocacy': include 'aboutus_advocacy.php';
+        break;		
+	case 'aboutus_visimisi': include 'aboutus_visimisi.php';
+        break;	
+	case 'tentang_kami': include 'tentang_kami.php';
+        break;						
+}
+?>
